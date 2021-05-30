@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/create_post"
+            android:checkable="false"
+            android:icon="@drawable/ic_create_post"
+            android:title="Create Post" />
+
+        <item
+            android:id="@+id/order_list"
+            android:icon="@drawable/ic_your_order"
+            android:title="Your Order" />
+
+        <item
+            android:id="@+id/item_shop"
+            android:icon="@drawable/logo"
+            android:title="Shop" />
+
+        <item
+            android:id="@+id/item_cart"
+            android:icon="@drawable/ic_cart"
+            android:title="Cart" />
+    </group>
+
+
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/login"
+                    android:icon="@drawable/ic_login"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Commnunicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_64"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_rate_us"
+                android:title="Rate Us" />
+
+        </menu>
+
+    </item>
+
+</menu>
